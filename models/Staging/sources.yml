@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: RAW
+    database: TEST
+    tables:
+      - name: COVID_DATA
+    
