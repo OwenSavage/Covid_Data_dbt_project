@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: deaths
+    description: Data on the COVID-19 deaths by country
+    columns: 
+      - name: country
+        description: Unique identifier of each country
+      - name: deaths
+        description: The number of COVID-19 deaths in the subject country
+      - name: per_million
+        description: The number of COVID-19 deaths per million people
+  - name: death_rate
+    description: Data on the deadliness of COVID-19 by country
+    columns:
+      - name: death_rate
+        description: The number of fatalaties per COVID-19 case displayed as a percentage
